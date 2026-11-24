@@ -122,3 +122,67 @@ body {
 }
 /* Common css part end */
 
+/* Navbar part start */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 1020;
+  background-color: #FFFFFF;
+  min-height: 98px;
+  display: flex;
+  align-items: center;
+}
+
+.site-header .navbar {
+  width: 100%;
+  padding: 18px 0;
+}
+
+.site-header .navbar-brand {
+  padding: 0;
+  margin: 0;
+}
+
+.site-header .navbar-toggler {
+  border: 0;
+  box-shadow: none;
+}
+
+.site-header .navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.brand-logo {
+  height: 50px;
+  width: auto;
+  display: block;
+}
+
+.nav-menu-list {
+  margin-left: auto;
+  margin-right: auto;
+  gap: 29px;
+}
+
+.nav-menu-list .nav-link {
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #4D4D4D;
+  padding: 6px 0;
+}
+
+.nav-menu-list .nav-link.active, .nav-menu-list .nav-link:hover {
+  color: #36B864;
+  font-weight: 500;
+}
+
+.nav-cta-btn {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 12px 32px;
+  line-height: 24px;
+}
+/* Navbar part end */
+
