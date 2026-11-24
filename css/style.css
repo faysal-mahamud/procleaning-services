@@ -341,3 +341,53 @@ body {
 }
 /* Services part end */
 
+/* Quote part start */
+.quote-section {
+  padding: 87px 0;
+}
+
+.quote-row {
+  align-items: center;
+  justify-content: space-between;
+  --bs-gutter-y: 48px;
+}
+
+.quote-img-col {
+  text-align: right;
+}
+
+.quote-eyebrow {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #111D15;
+  margin-bottom: 16px;
+}
+
+.quote-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 52.8px;
+  color: #111D15;
+  margin-bottom: 24px;
+}
+
+.quote-desc {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #666666;
+  max-width: 516px;
+  margin-bottom: 36px;
+}
+
+.btn-quote-cta {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 16px 36px;
+}
+/* Quote part end */
+
