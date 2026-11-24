@@ -1,0 +1,124 @@
+/* Common css part start */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root,
+html {
+  scroll-behavior: auto !important;
+}
+
+body {
+  font-family: 'Be Vietnam Pro', sans-serif;
+  color: #111D15;
+  background-color: #FFFFFF;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.custom-container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 12px;
+}
+
+.btn {
+  padding: 6px 12px;
+  transition: 0.3s;
+}
+
+.btn-green, .btn-outline-dark-custom, .btn-service-outline, .btn-service-green, .btn-plan-outline {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+.contact-input, .contact-textarea, .footer-input {
+  display: block;
+  width: 100%;
+  outline: none;
+}
+
+.btn-green {
+  background-color: #36B864;
+  color: #FFFFFF;
+  border: 1px solid #36B864;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.btn-green:hover, .btn-green:focus {
+  background-color: #2ca055;
+  border-color: #2ca055;
+  color: #FFFFFF;
+}
+
+.btn-outline-dark-custom {
+  background-color: transparent;
+  color: #111D15;
+  border: 1px solid #666666;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.btn-outline-dark-custom:hover {
+  background-color: #111D15;
+  border-color: #111D15;
+  color: #FFFFFF;
+}
+
+.section-head-row {
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.section-heading {
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 52.8px;
+  color: #111D15;
+  margin: 0;
+}
+
+.section-sub-label {
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25px;
+  color: #111D15;
+  margin-bottom: 12px;
+}
+
+.section-sub-desc {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #666666;
+  margin: 0;
+}
+
+.green-divider {
+  border: 0;
+  border-top: 1px solid #83A790;
+  opacity: 1;
+  margin: 40px 0;
+}
+
+.stars-row {
+  color: #FF9800;
+  font-size: 15px;
+  display: flex;
+  gap: 5px;
+  margin-bottom: 14px;
+}
+
+.overlap-group-img {
+  max-width: 100%;
+  height: auto;
+}
+/* Common css part end */
+
