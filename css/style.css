@@ -687,3 +687,127 @@ body {
 }
 /* Pricing part end */
 
+/* Testimonials part start */
+.testimonials-section {
+  padding: 64px 0;
+}
+
+.testimonials-row {
+  align-items: center;
+  justify-content: space-between;
+  --bs-gutter-x: 24px;
+  --bs-gutter-y: 24px;
+}
+
+.testimonial-heading {
+  margin-bottom: 16px;
+}
+
+.testimonial-sub-desc {
+  max-width: 420px;
+  margin-bottom: 24px;
+}
+
+.testimonial-arrows {
+  display: flex;
+  gap: 16px;
+}
+
+.arrow-btn {
+  width: 56px;
+  height: 56px;
+  border-radius: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.arrow-outline {
+  background-color: #FFFFFF;
+  border: 1px solid #36B864;
+  color: #36B864;
+}
+
+.arrow-outline:hover {
+  background-color: #36B864;
+  color: #FFFFFF;
+}
+
+.arrow-solid {
+  background-color: #36B864;
+  border: 1px solid #36B864;
+  color: #FFFFFF;
+}
+
+.arrow-solid:hover {
+  background-color: #2ca055;
+}
+
+.testimonial-card {
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  border: none;
+  border-top: 10px solid #36B864;
+  border-right: 10px solid #36B864;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.testimonial-photo {
+  width: 170px;
+  height: 244px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 1px solid #E6E6E6;
+  flex-shrink: 0;
+}
+
+.testimonial-content {
+  flex: 1;
+}
+
+.testimonial-card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.testimonial-card .stars-row {
+  margin-top: 8px;
+}
+
+.testimonial-name {
+  font-size: 20px;
+  font-weight: 500;
+  color: #111D15;
+  margin-bottom: 4px;
+}
+
+.testimonial-role {
+  font-size: 16px;
+  font-weight: 400;
+  color: #666666;
+  margin: 0;
+}
+
+.quote-badge-icon {
+  width: 68px;
+  height: auto;
+  flex-shrink: 0;
+}
+
+.testimonial-quote {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #666666;
+  margin: 14px 0 0;
+}
+/* Testimonials part end */
+
